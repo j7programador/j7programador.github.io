@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>JorgeLopezYepes</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p>&ltJorge L. Lopez Y.&gt
+            </p>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, My Name Is <strong>Jorge Lopez Yepes</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Software Developer</p>
+        <img src="DevJorge.jpg" alt="a picture of Jorge" class="intro_img">
+    </section>
+
+    <!--My services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services"> What I Do</h2>
+
+        <div class="services">
+            <div class="service">
+                <h3>Java </h3>
+                <p>Development of applications and web services using spring boot</p>
+            </div>
+            <div class="service">
+                <h3>Python</h3>
+                <p>Development of application and web services using Django</p>
+            </div>
+            <div class="service">
+                <h3>Html, Css and JavaScript</h3>
+                <p>Responsive web development</p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My work</a>
+    </section>
+    <!--About me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section_subtitle section__subtitle--about">
+            Software developer engineer, eager to learn and to do things well.
+        </p>
+        <div class="about-me-body">
+            <p>Perseverant</p>
+            <p>Humble</p>
+        </div>
+        <img src="DevJorge1.jpeg" alt="jorge learning" class="about-me__img">
+    </section>
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">Select one of my works</p>
+        <div class="portfolio">
+            <a href="#" class="portfolio__item">
+                <img src="Connect4.png" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="Connect4.png" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="Connect4.png" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="Connect4.png" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="Connect4.png" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="Connect4.png" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="Connect4.png" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="mailto:j7programador@gmail.com" class="footer__link">j7programador@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a href="https://github.com/j7programador" class="social-list__link"
+                    target="_blank"> <i class="fab fa-github"></i></a></li>
+            <li class="social-list__item"><a href="https://www.linkedin.com/in/jorge-l-lopez-782122211" class="social-list__link"
+                    target="_blank"><i class="fab fa-linkedin"></i></a></li>
+
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
